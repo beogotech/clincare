@@ -1,0 +1,6 @@
+#  Discovery service bootstrap file
+
+---
+spring:
+  application:
+    name: discovery
