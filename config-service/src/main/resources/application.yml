@@ -1,8 +1,18 @@
+# Spring config server .yml file
 ---
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/beogotech/clincare
-          searchPaths:configData
+          uri: https://github.com/beogotech/clincare/configData
+
+        native:
+          search-locations: classpath:/shared
+  profiles:
+    active: dev,native
+
+server:
+  port: 8888
+
+

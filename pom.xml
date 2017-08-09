@@ -7,5 +7,9 @@
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>config-service</module>
+    </modules>
+
 
 </project>
